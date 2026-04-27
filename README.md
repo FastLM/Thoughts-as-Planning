@@ -1,15 +1,15 @@
 # Thoughts as Planning
 
-C++ reference for our paper **Thoughts-as-Planning** — a latent state encoder, transition model, reward head, and a planning loop over text edits (toy `src/main.cpp`). If you use this code, please cite the paper in [Citation](#citation).
+C++ reference for our paper **Thoughts-as-Planning** — a latent state encoder, transition model, reward head, and a planning loop over text edits (toy `src/main.cpp`).
 
 ## Requirements
 
 - C++17 compiler  
-- [Eigen3](https://eigen.tuxfamily.org/) (header-only)
+- [Eigen3](https://eigen.tuxfamily.org/)
 
 ## Build
 
-**Make** (no CMake). Put Eigen under `third_party/eigen3-src` (see command below) or set `EIGEN3_INC` to your Eigen include root.
+**Make**. Put Eigen under `third_party/eigen3-src` (see command below) or set `EIGEN3_INC` to your Eigen include root.
 
 ```bash
 git clone --depth 1 -b 3.4.0 \
