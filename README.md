@@ -44,8 +44,13 @@ cmake --build build
 D. Liu, Y. Yu, and Y. N. Wu, *Thoughts-as-Planning: Latent World Models for Chain-of-Thoughts Optimization via Reinforcement Planning*, 2026.
 
 ```bibtex
-@article{liu2026thoughtsasplanning,
-  title  = {Thoughts-as-Planning: Latent World Models for Chain-of-Thoughts Optimization via Reinforcement Planning},
-  author = {Liu, Dong and Yu, Yanxuan and Wu, Ying Nian}
+@article{liu2026thoughtsasplanninglatentworldmodels,
+      title={Thoughts-as-Planning: Latent World Models for Chain-of-Thoughts Optimization via Reinforcement Planning}, 
+      author={Dong Liu and Yanxuan Yu and Ying Nian Wu},
+      year={2026},
+      eprint={2605.28842},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.28842}, 
 }
 ```
